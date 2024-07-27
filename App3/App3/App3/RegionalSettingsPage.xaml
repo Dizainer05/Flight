@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App3.RegionalSettingsPage"
+             BackgroundColor="#1C1C1E">
+    <ContentPage.Content>
+        <StackLayout Padding="20">
+            <Label Text="Региональные настройки" FontSize="24" TextColor="White" HorizontalOptions="Center" />
+            <!-- Добавьте здесь элементы для настройки региональных параметров -->
+            <Button Text="Закрыть" BackgroundColor="#007AFF" TextColor="White" HorizontalOptions="Center" Clicked="CloseModal"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

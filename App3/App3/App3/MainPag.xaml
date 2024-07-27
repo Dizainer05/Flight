@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App3.MainPag"
+             BackgroundColor="#242424">
+    <ContentPage.Content>
+        <StackLayout Padding="15">
+            <!-- Заголовок -->
+            <Label Text="Поиск авиабилетов" FontSize="24" TextColor="White" HorizontalOptions="Center" FontAttributes="Bold" />
+
+            <!-- Откуда и Куда в закругленных боксах -->
+            <StackLayout Orientation="Vertical" Spacing="10">
+                <Frame BackgroundColor="#323232" CornerRadius="10" Padding="10" HorizontalOptions="FillAndExpand">
+                    <Entry Placeholder="Откуда" TextColor="White" PlaceholderColor="Gray" />
+                </Frame>
+                <Frame BackgroundColor="#323232" CornerRadius="10" Padding="10" HorizontalOptions="FillAndExpand">
+                    <Entry Placeholder="Куда" TextColor="White" PlaceholderColor="Gray" />
+                </Frame>
+            </StackLayout>
+
+            <!-- Даты, Количество пассажиров и Класс, Фильтры -->
+            <StackLayout Orientation="Horizontal" Spacing="10" Margin="0,0,0,0">
+                <Frame BackgroundColor="#323232" CornerRadius="10" Padding="10" HorizontalOptions="FillAndExpand">
+                    <StackLayout Orientation="Horizontal">
+                        <Image Source="Calendar.png" HeightRequest="30" WidthRequest="30" />
+                        <Label Text="Даты" TextColor="White" VerticalOptions="Center" Margin="0,0,0,0" FontFamily = "Roboto-Medium">
+                            <Label.GestureRecognizers>
+                                <TapGestureRecognizer Tapped="OnDatesTapped" />
+                            </Label.GestureRecognizers>
+                        </Label>
+                    </StackLayout>
+                </Frame>
+
+
+                <Frame BackgroundColor="#323232" CornerRadius="10" Padding="10" Margin="0,0,0,0" HorizontalOptions="FillAndExpand">
+                    <StackLayout Orientation="Horizontal">
+                        <Image Source="person.jpg" HeightRequest="30" WidthRequest="30" />
+                        <Label x:Name="PassengerClassLabel" Text="1, эконом" TextColor="White" VerticalOptions="Center" Margin="0,0,0,0" FontFamily = "Roboto-Medium">
+                            <Label.GestureRecognizers>
+                                <TapGestureRecognizer Tapped="OnPassengersTapped" />
+                            </Label.GestureRecognizers>
+                        </Label>
+                    </StackLayout>
+                </Frame>
+                <Frame BackgroundColor="#323232" CornerRadius="10" Padding="10" Margin="0,0,0,0" HorizontalOptions="FillAndExpand">
+                    <Label Text="Фильтры" TextColor="White" VerticalOptions="Center" HorizontalOptions="Center" FontFamily = "Roboto-Medium">
+                        <Label.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="OnFiltersTapped" />
+                        </Label.GestureRecognizers>
+                    </Label>
+                </Frame>
+            </StackLayout>
+
+            <!-- Популярные направления -->
+            <Label Text="Популярные направления" FontSize="Medium" TextColor="White" Margin="10,20,0,10" />
+            <ScrollView Orientation="Horizontal">
+                <StackLayout Orientation="Horizontal">
+                    <Frame BackgroundColor="#323232" CornerRadius="10" Padding="10" WidthRequest="100" HeightRequest="150" Margin="0,0,10,0">
+                        <Image Source="country_image.png" Aspect="AspectFit" VerticalOptions="CenterAndExpand" />
+                        <Label Text="Страна" TextColor="White" HorizontalOptions="Center" VerticalOptions="End" />
+                        <Label Text="от 100 Br" TextColor="White" HorizontalOptions="Center" VerticalOptions="End" />
+                    </Frame>
+                    <Frame BackgroundColor="#323232" CornerRadius="10" Padding="10" WidthRequest="100" HeightRequest="150" Margin="0,0,10,0">
+                        <Image Source="country_image.png" Aspect="AspectFit" VerticalOptions="CenterAndExpand" />
+                        <Label Text="Страна" TextColor="White" HorizontalOptions="Center" VerticalOptions="End" />
+                        <Label Text="от 100 Br" TextColor="White" HorizontalOptions="Center" VerticalOptions="End" />
+                    </Frame>
+                    <!-- Add more Frames as needed -->
+                </StackLayout>
+            </ScrollView>
+
+            <!-- Кнопка "Показать всё" -->
+            <Button Text="Показать всё" TextColor="White" BackgroundColor="#323232" CornerRadius="10" Margin="10,20,10,0" FontFamily = "Roboto-Medium" TextTransform="None" />
+
+            <!-- Текст "Спасибо что пользуетесь нашим приложением" -->
+            <Label Text="Спасибо что пользуетесь нашим приложением" TextColor="White" HorizontalOptions="Center" Margin="10,20,10,10" />
+            <Image Source="Love.png" Aspect="AspectFit" VerticalOptions="CenterAndExpand" HeightRequest="50" WidthRequest="50" />
+
+            <StackLayout>
+            <!-- Добавляем ваш код здесь -->
+            <Grid BackgroundColor="Transparent" Padding="0" HorizontalOptions="Fill">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="70" />
+                </Grid.RowDefinitions>
+                <!-- Размещаем кнопки в нижней строке Grid -->
+                <StackLayout Grid.Row="1" Orientation="Horizontal" BackgroundColor="#323232" Padding="0">
+                    <StackLayout Margin="5,5,12,5">
+                            <ImageButton Source="Plane.png" BackgroundColor="Transparent" HeightRequest="30" WidthRequest="100" Clicked="OnMainButtonClicked"  />
+                            <Label Text="Авиабилеты" TextColor="White" HorizontalTextAlignment="Center" />
+                    </StackLayout>
+                    <StackLayout Margin="5,5,12,5" >
+                        <ImageButton Source="Calendar.png" BackgroundColor="Transparent" HeightRequest="30" WidthRequest="100"  />
+                        <Label Text="Мои билеты" TextColor="White" HorizontalTextAlignment="Center" />
+                    </StackLayout>
+                    <StackLayout Margin="5,5,12,5" >
+                            <ImageButton Source="Person.png" BackgroundColor="Transparent" HeightRequest="30" WidthRequest="100" Clicked="OnProfileButtonClicked" />
+                        <Label Text="Профиль" TextColor="White" HorizontalTextAlignment="Center" />
+                    </StackLayout>
+                </StackLayout>
+            </Grid>
+        </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

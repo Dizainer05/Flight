@@ -1,0 +1,390 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\Programming\\VisualStudio\\SaveKursa\\3\\App3\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{72EB51FA-F820-4957-92A8-636FC8D1F4EC}|App3\\App3\\App3.csproj|e:\\programming\\visualstudio\\savekursa\\3\\app3\\app3\\app3\\login.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "RelativeMoniker": "D:0:0:{72EB51FA-F820-4957-92A8-636FC8D1F4EC}|App3\\App3\\App3.csproj|solutionrelative:app3\\app3\\login.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72EB51FA-F820-4957-92A8-636FC8D1F4EC}|App3\\App3\\App3.csproj|e:\\programming\\visualstudio\\savekursa\\3\\app3\\app3\\app3\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72EB51FA-F820-4957-92A8-636FC8D1F4EC}|App3\\App3\\App3.csproj|solutionrelative:app3\\app3\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72EB51FA-F820-4957-92A8-636FC8D1F4EC}|App3\\App3\\App3.csproj|e:\\programming\\visualstudio\\savekursa\\3\\app3\\app3\\app3\\app.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "RelativeMoniker": "D:0:0:{72EB51FA-F820-4957-92A8-636FC8D1F4EC}|App3\\App3\\App3.csproj|solutionrelative:app3\\app3\\app.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72EB51FA-F820-4957-92A8-636FC8D1F4EC}|App3\\App3\\App3.csproj|e:\\programming\\visualstudio\\savekursa\\3\\app3\\app3\\app3\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72EB51FA-F820-4957-92A8-636FC8D1F4EC}|App3\\App3\\App3.csproj|solutionrelative:app3\\app3\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72EB51FA-F820-4957-92A8-636FC8D1F4EC}|App3\\App3\\App3.csproj|e:\\programming\\visualstudio\\savekursa\\3\\app3\\app3\\app3\\page1.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "RelativeMoniker": "D:0:0:{72EB51FA-F820-4957-92A8-636FC8D1F4EC}|App3\\App3\\App3.csproj|solutionrelative:app3\\app3\\page1.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72EB51FA-F820-4957-92A8-636FC8D1F4EC}|App3\\App3\\App3.csproj|e:\\programming\\visualstudio\\savekursa\\3\\app3\\app3\\app3\\page1.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72EB51FA-F820-4957-92A8-636FC8D1F4EC}|App3\\App3\\App3.csproj|solutionrelative:app3\\app3\\page1.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72EB51FA-F820-4957-92A8-636FC8D1F4EC}|App3\\App3\\App3.csproj|e:\\programming\\visualstudio\\savekursa\\3\\app3\\app3\\app3\\mainpag.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "RelativeMoniker": "D:0:0:{72EB51FA-F820-4957-92A8-636FC8D1F4EC}|App3\\App3\\App3.csproj|solutionrelative:app3\\app3\\mainpag.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72EB51FA-F820-4957-92A8-636FC8D1F4EC}|App3\\App3\\App3.csproj|e:\\programming\\visualstudio\\savekursa\\3\\app3\\app3\\app3\\mainpage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "RelativeMoniker": "D:0:0:{72EB51FA-F820-4957-92A8-636FC8D1F4EC}|App3\\App3\\App3.csproj|solutionrelative:app3\\app3\\mainpage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72EB51FA-F820-4957-92A8-636FC8D1F4EC}|App3\\App3\\App3.csproj|e:\\programming\\visualstudio\\savekursa\\3\\app3\\app3\\app3\\filterspage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "RelativeMoniker": "D:0:0:{72EB51FA-F820-4957-92A8-636FC8D1F4EC}|App3\\App3\\App3.csproj|solutionrelative:app3\\app3\\filterspage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72EB51FA-F820-4957-92A8-636FC8D1F4EC}|App3\\App3\\App3.csproj|e:\\programming\\visualstudio\\savekursa\\3\\app3\\app3\\app3\\filterspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72EB51FA-F820-4957-92A8-636FC8D1F4EC}|App3\\App3\\App3.csproj|solutionrelative:app3\\app3\\filterspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Programming\\VisualStudio\\SaveKursa\\3\\App3\\App3\\App3\\obj\\Debug\\netstandard2.0\\FiltersPage.xaml.g.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:App3\\App3\\obj\\Debug\\netstandard2.0\\FiltersPage.xaml.g.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72EB51FA-F820-4957-92A8-636FC8D1F4EC}|App3\\App3\\App3.csproj|e:\\programming\\visualstudio\\savekursa\\3\\app3\\app3\\app3\\regionalsettingspage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "RelativeMoniker": "D:0:0:{72EB51FA-F820-4957-92A8-636FC8D1F4EC}|App3\\App3\\App3.csproj|solutionrelative:app3\\app3\\regionalsettingspage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72EB51FA-F820-4957-92A8-636FC8D1F4EC}|App3\\App3\\App3.csproj|e:\\programming\\visualstudio\\savekursa\\3\\app3\\app3\\app3\\pricedisplaysettingspage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "RelativeMoniker": "D:0:0:{72EB51FA-F820-4957-92A8-636FC8D1F4EC}|App3\\App3\\App3.csproj|solutionrelative:app3\\app3\\pricedisplaysettingspage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72EB51FA-F820-4957-92A8-636FC8D1F4EC}|App3\\App3\\App3.csproj|e:\\programming\\visualstudio\\savekursa\\3\\app3\\app3\\app3\\privacysettingspage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "RelativeMoniker": "D:0:0:{72EB51FA-F820-4957-92A8-636FC8D1F4EC}|App3\\App3\\App3.csproj|solutionrelative:app3\\app3\\privacysettingspage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72EB51FA-F820-4957-92A8-636FC8D1F4EC}|App3\\App3\\App3.csproj|e:\\programming\\visualstudio\\savekursa\\3\\app3\\app3\\app3\\page2.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "RelativeMoniker": "D:0:0:{72EB51FA-F820-4957-92A8-636FC8D1F4EC}|App3\\App3\\App3.csproj|solutionrelative:app3\\app3\\page2.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72EB51FA-F820-4957-92A8-636FC8D1F4EC}|App3\\App3\\App3.csproj|e:\\programming\\visualstudio\\savekursa\\3\\app3\\app3\\app3\\mainpag.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72EB51FA-F820-4957-92A8-636FC8D1F4EC}|App3\\App3\\App3.csproj|solutionrelative:app3\\app3\\mainpag.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72EB51FA-F820-4957-92A8-636FC8D1F4EC}|App3\\App3\\App3.csproj|e:\\programming\\visualstudio\\savekursa\\3\\app3\\app3\\app3\\page2.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72EB51FA-F820-4957-92A8-636FC8D1F4EC}|App3\\App3\\App3.csproj|solutionrelative:app3\\app3\\page2.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72EB51FA-F820-4957-92A8-636FC8D1F4EC}|App3\\App3\\App3.csproj|e:\\programming\\visualstudio\\savekursa\\3\\app3\\app3\\app3\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72EB51FA-F820-4957-92A8-636FC8D1F4EC}|App3\\App3\\App3.csproj|solutionrelative:app3\\app3\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Programming\\VisualStudio\\SaveKursa\\3\\App3\\App3\\App3\\obj\\Debug\\netstandard2.0\\MainPage.xaml.g.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:App3\\App3\\obj\\Debug\\netstandard2.0\\MainPage.xaml.g.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72EB51FA-F820-4957-92A8-636FC8D1F4EC}|App3\\App3\\App3.csproj|e:\\programming\\visualstudio\\savekursa\\3\\app3\\app3\\app3\\app3.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{72EB51FA-F820-4957-92A8-636FC8D1F4EC}|App3\\App3\\App3.csproj|solutionrelative:app3\\app3\\app3.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72EB51FA-F820-4957-92A8-636FC8D1F4EC}|App3\\App3\\App3.csproj|e:\\programming\\visualstudio\\savekursa\\3\\app3\\app3\\app3\\pricedisplaysettingspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72EB51FA-F820-4957-92A8-636FC8D1F4EC}|App3\\App3\\App3.csproj|solutionrelative:app3\\app3\\pricedisplaysettingspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72EB51FA-F820-4957-92A8-636FC8D1F4EC}|App3\\App3\\App3.csproj|e:\\programming\\visualstudio\\savekursa\\3\\app3\\app3\\app3\\privacysettingspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72EB51FA-F820-4957-92A8-636FC8D1F4EC}|App3\\App3\\App3.csproj|solutionrelative:app3\\app3\\privacysettingspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72EB51FA-F820-4957-92A8-636FC8D1F4EC}|App3\\App3\\App3.csproj|e:\\programming\\visualstudio\\savekursa\\3\\app3\\app3\\app3\\regionalsettingspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72EB51FA-F820-4957-92A8-636FC8D1F4EC}|App3\\App3\\App3.csproj|solutionrelative:app3\\app3\\regionalsettingspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 1793,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Login.xaml",
+              "DocumentMoniker": "E:\\Programming\\VisualStudio\\SaveKursa\\3\\App3\\App3\\App3\\Login.xaml",
+              "RelativeDocumentMoniker": "App3\\App3\\Login.xaml",
+              "ToolTip": "E:\\Programming\\VisualStudio\\SaveKursa\\3\\App3\\App3\\App3\\Login.xaml",
+              "RelativeToolTip": "App3\\App3\\Login.xaml",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-06-11T20:02:56.829Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "FiltersPage.xaml.g.cs",
+              "DocumentMoniker": "E:\\Programming\\VisualStudio\\SaveKursa\\3\\App3\\App3\\App3\\obj\\Debug\\netstandard2.0\\FiltersPage.xaml.g.cs",
+              "RelativeDocumentMoniker": "App3\\App3\\obj\\Debug\\netstandard2.0\\FiltersPage.xaml.g.cs",
+              "ToolTip": "E:\\Programming\\VisualStudio\\SaveKursa\\3\\App3\\App3\\App3\\obj\\Debug\\netstandard2.0\\FiltersPage.xaml.g.cs",
+              "RelativeToolTip": "App3\\App3\\obj\\Debug\\netstandard2.0\\FiltersPage.xaml.g.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-11T19:45:20.59Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MainPag.xaml",
+              "DocumentMoniker": "E:\\Programming\\VisualStudio\\SaveKursa\\3\\App3\\App3\\App3\\MainPag.xaml",
+              "RelativeDocumentMoniker": "App3\\App3\\MainPag.xaml",
+              "ToolTip": "E:\\Programming\\VisualStudio\\SaveKursa\\3\\App3\\App3\\App3\\MainPag.xaml",
+              "RelativeToolTip": "App3\\App3\\MainPag.xaml",
+              "ViewState": "AQIAACUAAAAAAAAAAAAwwEEAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-06-09T12:33:13.679Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MainPage.xaml",
+              "DocumentMoniker": "E:\\Programming\\VisualStudio\\SaveKursa\\3\\App3\\App3\\App3\\MainPage.xaml",
+              "RelativeDocumentMoniker": "App3\\App3\\MainPage.xaml",
+              "ToolTip": "E:\\Programming\\VisualStudio\\SaveKursa\\3\\App3\\App3\\App3\\MainPage.xaml",
+              "RelativeToolTip": "App3\\App3\\MainPage.xaml",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAwAAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-05-22T19:49:28.847Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Page1.xaml",
+              "DocumentMoniker": "E:\\Programming\\VisualStudio\\SaveKursa\\3\\App3\\App3\\App3\\Page1.xaml",
+              "RelativeDocumentMoniker": "App3\\App3\\Page1.xaml",
+              "ToolTip": "E:\\Programming\\VisualStudio\\SaveKursa\\3\\App3\\App3\\App3\\Page1.xaml",
+              "RelativeToolTip": "App3\\App3\\Page1.xaml",
+              "ViewState": "AQIAAEAAAAAAAAAAAAAiwGYAAACbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-06-05T19:27:16.379Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Page1.xaml.cs",
+              "DocumentMoniker": "E:\\Programming\\VisualStudio\\SaveKursa\\3\\App3\\App3\\App3\\Page1.xaml.cs",
+              "RelativeDocumentMoniker": "App3\\App3\\Page1.xaml.cs",
+              "ToolTip": "E:\\Programming\\VisualStudio\\SaveKursa\\3\\App3\\App3\\App3\\Page1.xaml.cs",
+              "RelativeToolTip": "App3\\App3\\Page1.xaml.cs",
+              "ViewState": "AQIAAJYAAAAAAAAAAAAuwLwAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-05T19:27:51.598Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AssemblyInfo.cs",
+              "DocumentMoniker": "E:\\Programming\\VisualStudio\\SaveKursa\\3\\App3\\App3\\App3\\AssemblyInfo.cs",
+              "RelativeDocumentMoniker": "App3\\App3\\AssemblyInfo.cs",
+              "ToolTip": "E:\\Programming\\VisualStudio\\SaveKursa\\3\\App3\\App3\\App3\\AssemblyInfo.cs",
+              "RelativeToolTip": "App3\\App3\\AssemblyInfo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAABBAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-22T20:25:15.795Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "App.xaml",
+              "DocumentMoniker": "E:\\Programming\\VisualStudio\\SaveKursa\\3\\App3\\App3\\App3\\App.xaml",
+              "RelativeDocumentMoniker": "App3\\App3\\App.xaml",
+              "ToolTip": "E:\\Programming\\VisualStudio\\SaveKursa\\3\\App3\\App3\\App3\\App.xaml",
+              "RelativeToolTip": "App3\\App3\\App.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-06-04T19:11:25.917Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "E:\\Programming\\VisualStudio\\SaveKursa\\3\\App3\\App3\\App3\\App.xaml.cs",
+              "RelativeDocumentMoniker": "App3\\App3\\App.xaml.cs",
+              "ToolTip": "E:\\Programming\\VisualStudio\\SaveKursa\\3\\App3\\App3\\App3\\App.xaml.cs",
+              "RelativeToolTip": "App3\\App3\\App.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwA8AAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-04T19:13:03.669Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "FiltersPage.xaml",
+              "DocumentMoniker": "E:\\Programming\\VisualStudio\\SaveKursa\\3\\App3\\App3\\App3\\FiltersPage.xaml",
+              "RelativeDocumentMoniker": "App3\\App3\\FiltersPage.xaml",
+              "ToolTip": "E:\\Programming\\VisualStudio\\SaveKursa\\3\\App3\\App3\\App3\\FiltersPage.xaml",
+              "RelativeToolTip": "App3\\App3\\FiltersPage.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAABVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-06-05T19:59:37.781Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "RegionalSettingsPage.xaml",
+              "DocumentMoniker": "E:\\Programming\\VisualStudio\\SaveKursa\\3\\App3\\App3\\App3\\RegionalSettingsPage.xaml",
+              "RelativeDocumentMoniker": "App3\\App3\\RegionalSettingsPage.xaml",
+              "ToolTip": "E:\\Programming\\VisualStudio\\SaveKursa\\3\\App3\\App3\\App3\\RegionalSettingsPage.xaml",
+              "RelativeToolTip": "App3\\App3\\RegionalSettingsPage.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-06-05T19:50:18.768Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "PriceDisplaySettingsPage.xaml",
+              "DocumentMoniker": "E:\\Programming\\VisualStudio\\SaveKursa\\3\\App3\\App3\\App3\\PriceDisplaySettingsPage.xaml",
+              "RelativeDocumentMoniker": "App3\\App3\\PriceDisplaySettingsPage.xaml",
+              "ToolTip": "E:\\Programming\\VisualStudio\\SaveKursa\\3\\App3\\App3\\App3\\PriceDisplaySettingsPage.xaml",
+              "RelativeToolTip": "App3\\App3\\PriceDisplaySettingsPage.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-06-05T19:52:07.763Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "PrivacySettingsPage.xaml",
+              "DocumentMoniker": "E:\\Programming\\VisualStudio\\SaveKursa\\3\\App3\\App3\\App3\\PrivacySettingsPage.xaml",
+              "RelativeDocumentMoniker": "App3\\App3\\PrivacySettingsPage.xaml",
+              "ToolTip": "E:\\Programming\\VisualStudio\\SaveKursa\\3\\App3\\App3\\App3\\PrivacySettingsPage.xaml",
+              "RelativeToolTip": "App3\\App3\\PrivacySettingsPage.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-06-05T19:51:25.025Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "FiltersPage.xaml.cs",
+              "DocumentMoniker": "E:\\Programming\\VisualStudio\\SaveKursa\\3\\App3\\App3\\App3\\FiltersPage.xaml.cs",
+              "RelativeDocumentMoniker": "App3\\App3\\FiltersPage.xaml.cs",
+              "ToolTip": "E:\\Programming\\VisualStudio\\SaveKursa\\3\\App3\\App3\\App3\\FiltersPage.xaml.cs",
+              "RelativeToolTip": "App3\\App3\\FiltersPage.xaml.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAuwEgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-05T19:59:50.216Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Page2.xaml",
+              "DocumentMoniker": "E:\\Programming\\VisualStudio\\SaveKursa\\3\\App3\\App3\\App3\\Page2.xaml",
+              "RelativeDocumentMoniker": "App3\\App3\\Page2.xaml",
+              "ToolTip": "E:\\Programming\\VisualStudio\\SaveKursa\\3\\App3\\App3\\App3\\Page2.xaml",
+              "RelativeToolTip": "App3\\App3\\Page2.xaml",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABAAAADKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-06-05T19:44:03.048Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "MainPag.xaml.cs",
+              "DocumentMoniker": "E:\\Programming\\VisualStudio\\SaveKursa\\3\\App3\\App3\\App3\\MainPag.xaml.cs",
+              "RelativeDocumentMoniker": "App3\\App3\\MainPag.xaml.cs",
+              "ToolTip": "E:\\Programming\\VisualStudio\\SaveKursa\\3\\App3\\App3\\App3\\MainPag.xaml.cs",
+              "RelativeToolTip": "App3\\App3\\MainPag.xaml.cs",
+              "ViewState": "AQIAAFkAAAAAAAAAAAAiwGkAAABAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-09T12:35:07.252Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Page2.xaml.cs",
+              "DocumentMoniker": "E:\\Programming\\VisualStudio\\SaveKursa\\3\\App3\\App3\\App3\\Page2.xaml.cs",
+              "RelativeDocumentMoniker": "App3\\App3\\Page2.xaml.cs",
+              "ToolTip": "E:\\Programming\\VisualStudio\\SaveKursa\\3\\App3\\App3\\App3\\Page2.xaml.cs",
+              "RelativeToolTip": "App3\\App3\\Page2.xaml.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAkwC8AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-05T19:44:20.492Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "MainPage.xaml.cs",
+              "DocumentMoniker": "E:\\Programming\\VisualStudio\\SaveKursa\\3\\App3\\App3\\App3\\MainPage.xaml.cs",
+              "RelativeDocumentMoniker": "App3\\App3\\MainPage.xaml.cs",
+              "ToolTip": "E:\\Programming\\VisualStudio\\SaveKursa\\3\\App3\\App3\\App3\\MainPage.xaml.cs",
+              "RelativeToolTip": "App3\\App3\\MainPage.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-22T19:49:28.43Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "MainPage.xaml.g.cs",
+              "DocumentMoniker": "E:\\Programming\\VisualStudio\\SaveKursa\\3\\App3\\App3\\App3\\obj\\Debug\\netstandard2.0\\MainPage.xaml.g.cs",
+              "RelativeDocumentMoniker": "App3\\App3\\obj\\Debug\\netstandard2.0\\MainPage.xaml.g.cs",
+              "ToolTip": "E:\\Programming\\VisualStudio\\SaveKursa\\3\\App3\\App3\\App3\\obj\\Debug\\netstandard2.0\\MainPage.xaml.g.cs",
+              "RelativeToolTip": "App3\\App3\\obj\\Debug\\netstandard2.0\\MainPage.xaml.g.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwBMAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-11T16:09:25.43Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "App3.csproj",
+              "DocumentMoniker": "E:\\Programming\\VisualStudio\\SaveKursa\\3\\App3\\App3\\App3\\App3.csproj",
+              "RelativeDocumentMoniker": "App3\\App3\\App3.csproj",
+              "ToolTip": "E:\\Programming\\VisualStudio\\SaveKursa\\3\\App3\\App3\\App3\\App3.csproj",
+              "RelativeToolTip": "App3\\App3\\App3.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-05-22T20:34:10.826Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "PriceDisplaySettingsPage.xaml.cs",
+              "DocumentMoniker": "E:\\Programming\\VisualStudio\\SaveKursa\\3\\App3\\App3\\App3\\PriceDisplaySettingsPage.xaml.cs",
+              "RelativeDocumentMoniker": "App3\\App3\\PriceDisplaySettingsPage.xaml.cs",
+              "ToolTip": "E:\\Programming\\VisualStudio\\SaveKursa\\3\\App3\\App3\\App3\\PriceDisplaySettingsPage.xaml.cs",
+              "RelativeToolTip": "App3\\App3\\PriceDisplaySettingsPage.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAABBAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-05T19:52:19.805Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "PrivacySettingsPage.xaml.cs",
+              "DocumentMoniker": "E:\\Programming\\VisualStudio\\SaveKursa\\3\\App3\\App3\\App3\\PrivacySettingsPage.xaml.cs",
+              "RelativeDocumentMoniker": "App3\\App3\\PrivacySettingsPage.xaml.cs",
+              "ToolTip": "E:\\Programming\\VisualStudio\\SaveKursa\\3\\App3\\App3\\App3\\PrivacySettingsPage.xaml.cs",
+              "RelativeToolTip": "App3\\App3\\PrivacySettingsPage.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-05T19:51:43.676Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "RegionalSettingsPage.xaml.cs",
+              "DocumentMoniker": "E:\\Programming\\VisualStudio\\SaveKursa\\3\\App3\\App3\\App3\\RegionalSettingsPage.xaml.cs",
+              "RelativeDocumentMoniker": "App3\\App3\\RegionalSettingsPage.xaml.cs",
+              "ToolTip": "E:\\Programming\\VisualStudio\\SaveKursa\\3\\App3\\App3\\App3\\RegionalSettingsPage.xaml.cs",
+              "RelativeToolTip": "App3\\App3\\RegionalSettingsPage.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-05T19:50:28.396Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

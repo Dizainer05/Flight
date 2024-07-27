@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App3.MainPage"
+             BackgroundColor="#292929">
+
+    <StackLayout VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Padding="20">
+        <!-- Кнопка Пропустить -->
+        <Button Text="Пропустить" HorizontalOptions="End" Clicked="OnSkipClicked" WidthRequest="100" HeightRequest="35" CornerRadius="30" BackgroundColor="#404040" TextColor="White" FontSize="11" TextTransform="None" FontFamily="Roboto-Medium" />
+
+        <!-- Иконка и текст -->
+        <StackLayout VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand">
+            <Image Source="Plane.png" HeightRequest="150"/>
+            <Label Text="Профиль не помешает" FontSize="Large" HorizontalTextAlignment="Center" TextColor="White"/>
+            <Label Text="Лучше с ним, чем без него." FontSize="Small" HorizontalTextAlignment="Center" TextColor="White"/>
+        </StackLayout>
+
+        <!-- Кнопки Войти и Потом -->
+        <Button Text="Войти" Clicked="OnLoginClicked" WidthRequest="250" CornerRadius="10" BackgroundColor="White" TextColor="Black" Margin="0,0,0,30" HorizontalOptions="Center" TextTransform="None" FontFamily="Roboto-Medium" FontSize="16"/>
+        <Button Text="Потом" Clicked="OnLaterClicked" WidthRequest="250" CornerRadius="10" BackgroundColor="#404040" TextColor="White" Margin="0,0,0,30" HorizontalOptions="Center" TextTransform="None" FontFamily="Roboto-Medium" FontSize="16"/>
+    </StackLayout>
+</ContentPage>

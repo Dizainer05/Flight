@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App3.FiltersPage"
+             BackgroundColor="#2B2B2B"
+             Title="Фильтры">
+    <ContentPage.Content>
+        <StackLayout Padding="10" VerticalOptions="FillAndExpand">
+            <!-- Верхняя панель -->
+            <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand" VerticalOptions="Start">
+                <Image Source="ic_close.png" HeightRequest="24" WidthRequest="24" VerticalOptions="Center"/>
+                <Label Text="Фильтры" FontSize="24" TextColor="White" HorizontalOptions="CenterAndExpand" VerticalOptions="Center" FontFamily="Roboto-Medium"/>
+            </StackLayout>
+
+            <!-- Фильтры -->
+            <StackLayout Margin="0,10,0,0" VerticalOptions="StartAndExpand">
+                <Label Text="Багаж" FontSize="18" TextColor="White" Margin="0,0,0,10" FontFamily="Roboto-Medium" />
+                <Frame BackgroundColor="#323232" CornerRadius="8" Padding="10">
+                    <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand" VerticalOptions="Center">
+                        <Label Text="Только с багажом" FontSize="16" TextColor="White" VerticalOptions="Center"/>
+                        <Switch x:Name="SwitchBagas" HorizontalOptions="EndAndExpand" VerticalOptions="Center"/>
+                    </StackLayout>
+                </Frame>
+                <Label Text="В обе стороны" FontSize="18" TextColor="White" Margin="0,10,0,10" FontFamily="Roboto-Medium" />
+                <Frame BackgroundColor="#323232" CornerRadius="8" Padding="10">
+                    <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand" VerticalOptions="Center">
+                        <Label Text="Только в обе стороны" FontSize="16" TextColor="White" VerticalOptions="Center"/>
+                        <Switch x:Name="SwitchBothWays" HorizontalOptions="EndAndExpand" VerticalOptions="Center"/>
+                    </StackLayout>
+                </Frame>
+            </StackLayout>
+
+            <!-- Нижняя кнопка -->
+            <Button FontSize="18" TextTransform="None" Padding="8" x:Name="ButtonDone" Text="Готово" BackgroundColor="#3C8323" TextColor="White" HorizontalOptions="FillAndExpand" VerticalOptions="End" CornerRadius="7" FontFamily="Roboto-Medium" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

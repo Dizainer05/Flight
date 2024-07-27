@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App3.Page1"
+             BackgroundColor="#2B2B2B">
+    <ContentPage.Content>
+        <StackLayout Padding="20">
+            <!-- Заголовок -->
+            <Label Text="Пассажиры и класс" FontSize="24" TextColor="White" HorizontalOptions="Center"  Margin="0,10,0,0" />
+            <BoxView HeightRequest="1" BackgroundColor="#5E5E5E" Margin="0,50,0,5" />
+            <!-- Взрослые -->
+            <Grid Padding="0, 5">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="55" />
+                    <ColumnDefinition Width="30" />
+                    <ColumnDefinition Width="55" />
+                </Grid.ColumnDefinitions>
+                <Label Text="Взрослые" FontSize="Large" TextColor="White" Grid.Column="0" VerticalOptions="Center"  Margin="0,5,0,20" />
+                <Label Text="12 лет и старше" FontSize="Small" TextColor="Gray" Grid.Column="0" VerticalOptions="End" />
+                <Button Text="-" BackgroundColor="#4D4D4D" TextColor="White" Grid.Column="1" Clicked="OnDecreaseAdults" BorderRadius="30"  FontSize="20" />
+                <Label x:Name="AdultsLabel" Text="1" FontSize="Large" TextColor="White" Grid.Column="2" VerticalOptions="CenterAndExpand" HorizontalOptions="Center"  />
+                <Button Text="+" BackgroundColor="#2196F3" TextColor="White" Grid.Column="3" Clicked="OnIncreaseAdults" BorderRadius="30"  FontSize="20" />
+            </Grid>
+
+            <BoxView HeightRequest="1" BackgroundColor="#5E5E5E" Margin="0,5,0,5" />
+
+            <!-- Дети -->
+            <Grid Padding="0, 5">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="55" />
+                    <ColumnDefinition Width="30" />
+                    <ColumnDefinition Width="55" />
+                </Grid.ColumnDefinitions>
+                <Label Text="Дети" FontSize="Large" TextColor="White" Grid.Column="0" VerticalOptions="Center"  Margin="0,5,0,20" />
+                <Label Text="От 2 до 11 лет" FontSize="Small" TextColor="Gray" Grid.Column="0" VerticalOptions="End" />
+                <Button Text="-" BackgroundColor="#4D4D4D" TextColor="White" Grid.Column="1" Clicked="OnDecreaseChildren" BorderRadius="30" FontSize="25" />
+                <Label x:Name="ChildrenLabel" Text="0" FontSize="Large" TextColor="White" Grid.Column="2" VerticalOptions="CenterAndExpand" HorizontalOptions="Center" />
+                <Button Text="+" BackgroundColor="#2196F3" TextColor="White" Grid.Column="3" Clicked="OnIncreaseChildren" BorderRadius="30" FontSize="20" />
+            </Grid>
+
+            <BoxView HeightRequest="1" BackgroundColor="#5E5E5E" Margin="0,10,0,10" />
+
+            <!-- Младенцы -->
+            <Grid Padding="0, 5">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="55" />
+                    <ColumnDefinition Width="30" />
+                    <ColumnDefinition Width="55" />
+                </Grid.ColumnDefinitions>
+                <Label Text="Младенцы" FontSize="Large" TextColor="White" Grid.Column="0" VerticalOptions="Center" Margin="0,5,0,20" />
+                <Label Text="Младше 2 лет, без места" FontSize="Small" TextColor="Gray" Grid.Column="0" VerticalOptions="End" />
+                <Button Text="-" BackgroundColor="#4D4D4D" TextColor="White" Grid.Column="1" Clicked="OnDecreaseInfants" BorderRadius="30"  FontSize="20" />
+                <Label x:Name="InfantsLabel" Text="0" FontSize="Large" TextColor="White" Grid.Column="2" VerticalOptions="CenterAndExpand" HorizontalOptions="Center" />
+                <Button Text="+" BackgroundColor="#2196F3" TextColor="White" Grid.Column="3" Clicked="OnIncreaseInfants" BorderRadius="30"  FontSize="20" />
+            </Grid>
+
+            <!-- Выбор класса -->
+            <StackLayout Padding="0" Margin="0,40,0,0">
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="40" />
+                    </Grid.ColumnDefinitions>
+                    <Label Text="Эконом" FontSize="Large" TextColor="White" VerticalOptions="Center" Grid.Column="0" />
+                    <RadioButton x:Name="EconomyClassLabel" Grid.Column="1" FontSize="Large" TextColor="White" CheckedChanged="OnEconomyClassSelected"  GroupName="class" />
+                </Grid>
+                <BoxView HeightRequest="1" BackgroundColor="#5E5E5E" Margin="0,10,0,10" />
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="40" />
+                    </Grid.ColumnDefinitions>
+                    <Label Text="Комфорт" FontSize="Large" TextColor="White" VerticalOptions="Center" Grid.Column="0" />
+                    <RadioButton x:Name="ComfortClassLabel" Grid.Column="1" FontSize="Large" TextColor="White" CheckedChanged="OnComfortClassSelected"  GroupName="class" />
+                </Grid>
+                <BoxView HeightRequest="1" BackgroundColor="#5E5E5E" Margin="0,10,0,10" />
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="40" />
+                    </Grid.ColumnDefinitions>
+                    <Label Text="Бизнес" FontSize="Large" TextColor="White" VerticalOptions="Center" Grid.Column="0" />
+                    <RadioButton x:Name="BusinessClassLabel" Grid.Column="1" FontSize="Large" TextColor="White" CheckedChanged="OnBusinessClassSelected" GroupName="class" />
+                </Grid>
+                <BoxView HeightRequest="1" BackgroundColor="#5E5E5E" Margin="0,10,0,10" />
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="40" />
+                    </Grid.ColumnDefinitions>
+                    <Label Text="Первый класс" FontSize="Large" TextColor="White" VerticalOptions="Center" Grid.Column="0" />
+                    <RadioButton x:Name="FirstClassLabel" Grid.Column="1" FontSize="Large" TextColor="White" CheckedChanged="OnFirstClassSelected"  GroupName="class" />
+                </Grid>
+            </StackLayout>
+
+            <!-- Кнопка подтверждения -->
+            <Button Text="Выбрать" BackgroundColor="#3C8323" TextColor="White" Clicked="OnConfirmSelection" BorderRadius="8" Margin="0,60,0,10" />
+
+            <!-- Обновляемая надпись -->
+            <Label x:Name="SummaryLabel" Text="1, Эконом" FontSize="Medium" TextColor="White" HorizontalOptions="Center" Margin="0,10,0,0" IsVisible="false"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -70,3 +70,19 @@ dotnet build
 
 # 4. Запуск приложения
 dotnet run
+
+<div align="center">
+  <h3>Главная стрвница</h3>
+  <img src="assets/auth.png" width="2000" alt="Construction Management System"/>
+  <h3>Старница параметров по поиску билетов</h3>
+  <img src="assets/reg.png" width="2000" alt="Construction Management System"/>
+  <h3>Страница фильтров билетов</h3>
+  <img src="assets/dashbord.png" width="2000" alt="Construction Management System"/>
+  <h3>Старница настроект и профиля</h3>
+  <img src="assets/project.png" width="2000" alt="Construction Management System"/>
+  <h3>Старница билета</h3>
+  <img src="assets/avtar.png" width="2000" alt="Construction Management System"/>
+  <h3>Старница выбора даты </h3>
+  <img src="assets/admin.png" width="2000" alt="Construction Management System"/>
+
+</div>

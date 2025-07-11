@@ -70,7 +70,8 @@ dotnet build
 
 # 4. Запуск приложения
 dotnet run
-
+```
+### Скриншоты интерфейса (`## 🖥️ Скриншоты интерфейса`)
 <div align="center">
   <h3>Главная стрвница</h3>
   <img src="assets/auth.png" width="2000" alt="Construction Management System"/>

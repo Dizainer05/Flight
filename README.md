@@ -74,16 +74,16 @@ dotnet run
 ### Скриншоты интерфейса (`## 🖥️ Скриншоты интерфейса`)
 <div align="center">
   <h3>Главная страница</h3>
-  <img src="assets/auth.png" width="2000" alt="Construction Management System"/>
+  <img src="assets/main.jpg" width="2000" alt="Construction Management System"/>
   <h3>Страница параметров по поиску билетов</h3>  
-  <img src="assets/reg.png" width="2000" alt="Construction Management System"/>
+  <img src="assets/settings.jpg" width="2000" alt="Construction Management System"/>
   <h3>Страница фильтров билетов</h3>
-  <img src="assets/dashbord.png" width="2000" alt="Construction Management System"/>
+  <img src="assets/settings2.jpg" width="2000" alt="Construction Management System"/>
   <h3>Страница настроек и профиля</h3>  
-  <img src="assets/project.png" width="2000" alt="Construction Management System"/>
+  <img src="assets/login.jpg" width="2000" alt="Construction Management System"/>
   <h3>Страница билета</h3>  
-  <img src="assets/avtar.png" width="2000" alt="Construction Management System"/>
+  <img src="assets/details_fly.jpg" width="2000" alt="Construction Management System"/>
   <h3>Страница выбора даты</h3>
-  <img src="assets/admin.png" width="2000" alt="Construction Management System"/>
+  <img src="assets/date.jpg" width="2000" alt="Construction Management System"/>
 
 </div>

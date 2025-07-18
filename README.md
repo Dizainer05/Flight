@@ -3,7 +3,7 @@
   <h3>Мобильное приложение для авиакомпании «Белавиа» | Курсовой проект</h3>
   
   <p>
-    <img src="https://img.shields.io/badge/Status-In_Development-yellow?style=for-the-badge" alt="Status">
+    <img src="https://img.shields.io/badge/Status-Released-brightgreen?style=for-the-badge" alt="Status">
     <img src="https://img.shields.io/badge/Version-1.0.0-blue?style=for-the-badge" alt="Version">
   </p>
   
